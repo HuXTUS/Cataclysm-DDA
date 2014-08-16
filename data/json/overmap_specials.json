@@ -1105,6 +1105,22 @@
         "unique" : false, "//":"only allow one per city",
         "required" : false, "//":"is this special required for valid city sizes",
         "flags" : [ "CLASSIC" ]
+    },{
+        "type" : "overmap_special",
+        "id" : "shooting_range",
+        "overmaps" :
+        [
+            { "point":[0,0,0], "overmap": "shooting_range_1", "connect":"road"},
+            { "point":[0,-1,0], "overmap": "shooting_range_2"}
+        ],
+        "locations" : [ "by_hiway" ], 
+        "city_distance" : [10, 20], 
+        "city_sizes" : [4, 12], 
+        "occurrences" : [0, 4], 
+        "rotate" : false,
+        "unique" : false, 
+        "required" : false
+
     }
 ]
 
