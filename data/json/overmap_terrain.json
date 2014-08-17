@@ -4356,18 +4356,20 @@
         "extras" : "field"
     },{
         "type" : "overmap_terrain",
-        "id" : "shooting_range_1",
+        "id" : "shooting_range_entrance",
         "name" : "shooting range",
-        "sym" : 79,
+        "sym" : [ 79, 79, 79, 79 ],
         "color" : "red",
+        "rotate" : false,
         "see_cost" : 5,
         "extras" : "build"
     },{
         "type" : "overmap_terrain",
-        "id" : "shooting_range_2",
+        "id" : "shooting_range",
         "name" : "shooting range",
-        "sym" : 88,
+        "sym" : [ 88, 88, 88, 88],
         "color" : "red",
+        "rotate" : false,
         "see_cost" : 5,
         "extras" : "build"
     }
