@@ -105,6 +105,10 @@ void map::generate_lightmap()
                 add_light_source(sx, sy, 35 );
             }
 
+            if(terrain == t_shooting_place) {
+                add_light_source(sx, sy, 3 );
+            }
+
             field_entry *cur = NULL;
             for(std::map<field_id, field_entry *>::iterator field_list_it = current_field.getFieldStart();
                 field_list_it != current_field.getFieldEnd(); ++field_list_it) {

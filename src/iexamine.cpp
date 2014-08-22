@@ -2522,6 +2522,21 @@ void iexamine::pay_gas(player *p, map *m, const int examx, const int examy)
     }
 }
 
+void iexamine::shooting_machine(player *p, map *m, int examx, int examy)
+{
+    enum {s_cancel, s_sss};
+
+
+    return;
+
+}
+
+void iexamine::shooting_machine2(player *p, map *m, int examx, int examy)
+{
+
+    return;
+
+}
 /**
  * Given then name of one of the above functions, returns the matching function
  * pointer. If no match is found, defaults to iexamine::none but prints out a
@@ -2694,6 +2709,12 @@ void (iexamine::*iexamine_function_from_string(std::string function_name))(playe
     }
     if ("pay_gas" == function_name) {
         return &iexamine::pay_gas;
+    }
+    if ("shooting_machine" == function_name) {
+        return &iexamine::shooting_machine;
+    }
+    if ("shooting_machine2" == function_name) {
+        return &iexamine::shooting_machine2;
     }
 
     //No match found

@@ -80,6 +80,8 @@ class iexamine
         void curtains (player *p, map *m, const int examx, const int examy);
         void sign (player *p, map *m, const int examx, const int examy);
         void pay_gas (player *p, map *m, const int examx, const int examy);
+        void shooting_machine (player *p, map *m, int examx, int examy);
+        void shooting_machine2 (player *p, map *m, int examx, int examy);
 };
 
 typedef void (iexamine::*iexamine_function)(player *, map *, int, int);

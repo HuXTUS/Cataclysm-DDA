@@ -34,10 +34,8 @@
             ],
 			"terrain": {
 				"|": "t_wall_v",
-				"-": "t_wall_h"
-			},
-			"furniture": {
-				"z": "f_crate_c"
+				"-": "t_wall_h",
+				"x": "t_shooting_floor"
 			}
 		}
     },	{
@@ -56,10 +54,10 @@
             ".|                    |.",
             ".|                    |.",
             ".|       ######       |.",
-            ".|-------#@@@@#-------|.",
+            ".|-----###@@@@###-----|.",
             ".|        @@@@        |.",
             ".|                    |.",
-            ".|                    |.",
+            ".|         B          |.",
             ".|                    |.",
             ".|                    |.",
             ".|-*-*----------------|.",
@@ -75,12 +73,16 @@
             ],
        			"terrain": {
 				"|": "t_wall_v",
-				"-": "t_wall_h"
-			},
-
-			"furniture": {
-				"@": "f_bed"
+				"-": "t_wall_h",
+				"x": "t_shooting_floor",
+				"@": "t_shooting_place_d",
+				"#": "t_railing_h",
+				"+": "t_door_c",
+				"*": "t_door_glass_c",
+				"A": "t_shooting_machine",
+				"B": "t_shooting_machine2",
 			}
+
 		}
     }
 ]
