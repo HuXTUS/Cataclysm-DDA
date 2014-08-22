@@ -2693,7 +2693,7 @@
     }, {
         "type" : "terrain",
         "id" : "t_shooting_machine",
-        "name": "shooting machine",
+        "name": "badges & prizes machine",
         "symbol": "A",
         "color": "red",
         "move_cost": 0,
@@ -2702,9 +2702,9 @@
     }, {
         "type" : "terrain",
         "id" : "t_shooting_machine2",
-        "name": "shooting machine 2",
+        "name": "shooting machine",
         "symbol": "A",
-        "color": "red",
+        "color": "blue",
         "move_cost": 0,
         "flags": ["TRANSPARENT", "NOITEM", "SEALED", "CONTAINER", "REDUCE_SCENT"],
         "examine_action": "shooting_machine2"

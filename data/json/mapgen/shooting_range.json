@@ -80,7 +80,7 @@
 				"+": "t_door_c",
 				"*": "t_door_glass_c",
 				"A": "t_shooting_machine",
-				"B": "t_shooting_machine2",
+				"B": "t_shooting_machine2"
 			}
 
 		}

@@ -2524,7 +2524,7 @@ void iexamine::pay_gas(player *p, map *m, const int examx, const int examy)
 
 void iexamine::shooting_machine(player *p, map *m, int examx, int examy)
 {
-    enum {s_cancel, s_sss};
+    enum {s_cancel, s_buy_ticket, s_buy_ticket5, s_buy_ticket10, s_sell_gun, s_sell_rifle, s_prizes};
 
 
     return;
@@ -2533,6 +2533,7 @@ void iexamine::shooting_machine(player *p, map *m, int examx, int examy)
 
 void iexamine::shooting_machine2(player *p, map *m, int examx, int examy)
 {
+    enum {s_cancel, s_game};
 
     return;
 
