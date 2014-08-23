@@ -3927,6 +3927,33 @@
     "clip_size": 1,
     "reload": 1000,
     "valid_mod_locations": [[ "accessories", 4 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+  },
+  {
+    "id": "bbpistol",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "brown",
+    "name": "BB pistol",
+    "description": "Popular among children.  BBs deal nearly no damage.",
+    "price": 5000,
+    "material": ["aluminum", "plastic"],
+    "flags": "NEVER_JAMS",
+    "skill": "pistol",
+    "ammo": "BB",
+    "weight": 480,
+    "volume": 1,
+    "bashing": 9,
+    "cutting": 0,
+    "to_hit": -2,
+    "ranged_damage": 1,
+    "range": 0,
+    "dispersion": 15,
+    "recoil": 6,
+    "durability": 8,
+    "burst": 0,
+    "clip_size": 20,
+    "reload": 500,
+    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "grip", 1 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
   }
 
 ]

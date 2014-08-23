@@ -53,9 +53,9 @@
             ".|xxxxxxxxxxxxxxxxxxxx|.",
             ".|                    |.",
             ".|                    |.",
-            ".|       ######       |.",
-            ".|-----###@@@@###-----|.",
-            ".|        @@@@        |.",
+            ".|       //////       |.",
+            ".|-----///@@@@///-----|.",
+            ".|      # @@@@ #      |.",
             ".|                    |.",
             ".|         B          |.",
             ".|                    |.",
@@ -76,12 +76,20 @@
 				"-": "t_wall_h",
 				"x": "t_shooting_floor",
 				"@": "t_shooting_place_d",
-				"#": "t_railing_h",
+				"/": "t_railing_h",
 				"+": "t_door_c",
 				"*": "t_door_glass_c",
 				"A": "t_shooting_machine",
 				"B": "t_shooting_machine2"
-			}
+			},
+       			"furniture": {
+       			       	"#": "f_table"
+                        },
+
+		        "add": [
+                	{ "item": "bbpistol", "x": 8, "y": 9},
+                	{ "item": "bbgun", "x": 15, "y": 9}
+		        ]
 
 		}
     }

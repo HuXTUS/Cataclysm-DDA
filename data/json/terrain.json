@@ -2697,7 +2697,7 @@
         "symbol": "A",
         "color": "red",
         "move_cost": 0,
-        "flags": ["TRANSPARENT", "NOITEM", "SEALED", "CONTAINER", "REDUCE_SCENT"],
+        "flags": ["TRANSPARENT", "SEALED", "CONTAINER", "REDUCE_SCENT"],
         "examine_action": "shooting_machine"
     }, {
         "type" : "terrain",
@@ -2706,7 +2706,7 @@
         "symbol": "A",
         "color": "blue",
         "move_cost": 0,
-        "flags": ["TRANSPARENT", "NOITEM", "SEALED", "CONTAINER", "REDUCE_SCENT"],
+        "flags": ["TRANSPARENT", "SEALED", "CONTAINER", "REDUCE_SCENT"],
         "examine_action": "shooting_machine2"
     }
 ]
